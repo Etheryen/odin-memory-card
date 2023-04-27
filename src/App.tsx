@@ -50,7 +50,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-neutral-50 p-4">
-      <div className="flex flex-col gap-2 px-[20vw] pb-4">
+      <div className="flex flex-col gap-2 pb-4 sm:px-[20vw]">
         <div className="text-2xl font-black underline decoration-neutral-500 sm:text-3xl">
           Car Brands Memory Game
         </div>
@@ -58,10 +58,10 @@ export default function App() {
           Click on images but don't click any more than once
         </div>
         <div className="flex gap-4 text-sm sm:text-base">
-          <div className="rounded bg-neutral-200 px-2 py-1">
+          <div className="rounded bg-neutral-200 px-2 py-1 text-center">
             Score: <span className="font-bold">{score}</span>
           </div>
-          <div className="rounded bg-neutral-200 px-2 py-1">
+          <div className="rounded bg-neutral-200 px-2 py-1 text-center">
             Highscore: <span className="font-bold">{best}</span>
           </div>
         </div>
